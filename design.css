@@ -1,0 +1,414 @@
+body {
+	background-color: white;
+}
+
+ @font-face {
+ 	font-family: "Regular";
+ 	src: url("C:/Users/kurtm/Downloads/Website Assets/Fonts/BeVietnam-Medium.ttf");
+ } 
+
+ @font-face {
+ 	font-family: "Bold";
+ 	src: url("C:/Users/kurtm/Downloads/Website Assets/Fonts/BeVietnam-ExtraBold.ttf");
+ } 
+
+ @font-face {
+ 	font-family: "Light";
+ 	src: url("C:/Users/kurtm/Downloads/Website Assets/Fonts/BeVietnam-Light.ttf");
+ } 
+
+#MAIN {
+	margin: auto;
+	max-width: 1500px;
+}
+
+.align {
+	position: relative;
+
+}
+
+.logo {
+	margin-top: 50px;
+	margin-left: 140px;
+	float: left;
+	position: absolute;
+	z-index: 3;
+}
+
+.nav {
+    list-style-type: none;
+    margin-top: 45px;
+	margin-left: 505px;
+    padding: 0;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    font-family: "Regular";
+
+}
+
+.nav li {
+    display: inline;
+    margin-left: 30px;
+    font-family: "Regular";
+    color: #242D52;
+    cursor: pointer;
+
+}
+
+.nav li:hover {
+    color: silver;
+
+}
+
+.button1 {
+	margin-top: 35px;
+	margin-left: 1240px;
+	background-color: #F3603C;
+	border-radius: 25px;
+	border-color: none;
+	border-style: none;
+	border-width: 0px;
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 15px;
+	font-family: "Bold";
+	color: white;
+	z-index: 4;
+}
+
+.button1:hover {
+    background-color: #F98F75;
+    cursor: pointer;
+}
+
+.rectangle {
+	float: right;
+	margin-top: -8px;
+	margin-right: -8px;
+	position: relative;
+	z-index: 1;
+}
+
+
+
+
+
+
+.second {
+	position: absolute;
+	z-index: 5;
+	margin-top: 250px;
+}
+
+.intro {
+	width: 500px;
+	height: 250px;
+	position: relative;
+	margin-left: 140px;
+	
+}
+
+.intro span:nth-child(1) {
+	font-family: "Bold";
+	font-size: 60px;
+	color: #242D52;
+	line-height: 70px;
+}
+
+.intro2 {
+	width: 380px;
+	height: 260px;
+	position: relative;
+	margin-left: 140px;
+	
+}
+
+.intro2 span:nth-child(1) {
+	font-family: "Light";
+	font-size: 18px;
+	color: #242D52;
+}
+
+.button2 {
+	margin-top: -130px;
+	margin-left: 140px;
+	background-color: #F3603C;
+	border-radius: 25px;
+	border-color: none;
+	border-style: none;
+	border-width: 0px;
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 15px;
+	font-family: "Bold";
+	color: white;
+	z-index: 6;
+}
+
+.button2:hover {
+	background-color: #F98F75;
+	cursor: pointer;
+}
+
+
+
+
+
+.third {
+	position: absolute;
+	z-index: 7;
+	margin-top: 200px;
+	margin-left: 670px;
+}
+
+.third .analytics {
+	margin-left: 110px;
+	width: 620px;
+} 
+
+
+
+
+
+
+.fourth {
+	position: absolute;
+	z-index: 8;
+	margin-top: 850px;
+   
+}
+
+.Question {
+	width: 500px;
+	height: 130px;
+	position: relative;
+	margin-left: 140px;
+	
+}
+
+.Question span:nth-child(1) {
+	font-family: "Bold";
+	font-size: 40px;
+	color: #242D52;
+	line-height: 45px;
+}
+
+.Answer {
+	width: 380px;
+	height: 260px;
+	position: relative;
+	margin-left: 140px;
+	
+}
+
+.Answer span:nth-child(1) {
+	font-family: "Light";
+	font-size: 17px;
+	color: #242D52;
+}
+
+
+.fifth {
+	position: absolute;
+    margin-top: 820px;
+    margin-left: 700px;
+    width: 660px;
+    height: 600px;
+    z-index: 9;
+}
+
+
+.button3 {
+	background-color: #F3603C;
+	border-radius: 25px;
+	border-color: none;
+	border-style: none;
+	border-width: 0px;
+	position: relative;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	font-family: "Bold";
+	font-size: 16px;
+	color: white;
+}
+
+
+.container1 {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 630px;
+}
+
+.container1 span {
+	margin-left: 30px;
+	font-family: "Bold";
+	font-size: 16px;
+	color: #242D52;
+}
+
+.container1A {
+    margin-left: 200px;
+    width: 430px;
+}
+
+
+.container1A span:nth-child(1) {
+	font-family: "Light";
+	font-size: 16px;
+	color: #242D52;
+}
+
+.button4 {
+	background-color: #F3603C;
+	border-radius: 25px;
+	border-color: none;
+	border-style: none;
+	border-width: 0px;
+	position: relative;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	font-family: "Bold";
+	font-size: 16px;
+	color: white;
+}
+
+
+.container2 {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 630px;
+}
+
+.container2 span {
+	margin-left: 30px;
+	font-family: "Bold";
+	font-size: 16px;
+	color: #242D52;
+}
+
+.container2A {
+    margin-left: 200px;
+}
+
+
+.container2A span:nth-child(1) {
+	font-family: "Light";
+	font-size: 16px;
+	color: #242D52;
+}
+
+
+.button5 {
+	background-color: #F3603C;
+	border-radius: 25px;
+	border-color: none;
+	border-style: none;
+	border-width: 0px;
+	position: relative;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	font-family: "Bold";
+	font-size: 16px;
+	color: white;
+}
+
+
+.container3 {
+	margin-top: 40px;
+	margin-left: 100px;
+	width: 630px;
+}
+
+.container3 span {
+	margin-left: 30px;
+	font-family: "Bold";
+	font-size: 16px;
+	color: #242D52;
+}
+
+.container3A {
+    margin-left: 200px;
+    width: 430px;
+}
+
+
+.container3A span:nth-child(1) {
+	font-family: "Light";
+	font-size: 16px;
+	color: #242D52;
+}
+
+.sixth {
+	width: 1500px;
+	height: 1000px;
+	background-color: lime;
+	margin-top: 1400px;
+	position: absolute;
+	z-index: 10;
+}
+
+.WhatSaid {
+	margin-top: 70px;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+}
+
+.WhatSaid span {
+	font-family: "Bold";
+	font-size: 40px;
+	color: #242D52;
+}
+
+
+.humanGridLayout {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	position: relative;
+	z-index: 11;
+
+}
+
+#human {
+	padding: 70px 170px 70px 170px;
+	position: relative;
+	z-index: 13;
+}
+
+.text {
+	width: 320px;
+	height: 150px;
+	background-color: red; 
+	margin-top: -110px;
+	padding-top: 50px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	z-index: 12;
+}
+
+.text span {
+	font-family: "Bold";
+	font-size: 16px;
+	color: #242D52;
+}

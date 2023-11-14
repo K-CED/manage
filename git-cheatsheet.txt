@@ -1,0 +1,12 @@
+git stage . //stages changes
+git commit -m "message" // pushes changes to git or local
+git push origin main // pushes changes to main branch in github
+
+git branch // lists available branches
+git branch name222 // creates a new branch named 'name222'
+git checkout name222 // goes into working branch named 'name222'
+
+git pull 
+
+cd // change directory
+ls // lists all contents of a directory
